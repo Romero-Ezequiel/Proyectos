@@ -21,7 +21,7 @@ namespace SistemasDeProyectos.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("ProyectosCnn", throwIfV1Schema: false)
         {
         }
 
