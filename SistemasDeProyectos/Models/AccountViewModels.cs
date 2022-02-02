@@ -48,10 +48,14 @@ namespace SistemasDeProyectos.Models
 
     public class LoginViewModel
     {
-        [Required]
+        /*[Required]
         [Display(Name = "Correo electrónico")]
         [EmailAddress]
-        public string Email { get; set; }
+        public string Email { get; set; }*/
+
+        [Required]
+        [Display(Name = "Nombre de Usuario")]
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -64,6 +68,10 @@ namespace SistemasDeProyectos.Models
 
     public class RegisterViewModel
     {
+        [Required]
+        [Display(Name = "Nombre de Usuario")]
+        public string UserName { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Correo electrónico")]
