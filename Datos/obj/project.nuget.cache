@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0awG8Nrb0MOZ2Bkman1elH8kcHelQLkkiTDGIjLuIIgdL4wjp29p55TkjkDIoWCpsYiqHtr4IUpYu83cac4mjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PROBOOK\\Desktop\\GitHub\\Demo_ASPNET_MVC_EN_CAPAS\\Datos\\Datos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PROBOOK\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
